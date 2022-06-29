@@ -1,0 +1,40 @@
+.section-speciality {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  max-width: 270px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  max-width: 270px;
+}
+
+.speciality {
+  display: flex;
+  margin-right: -30px;
+}
+
+.speciality-items {
+  width: calc(100% / 4 - 30px);
+  margin-right: 30px;
+}
+
+.speciality-items svg {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
