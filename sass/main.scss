@@ -1,20 +1,7 @@
-@import './utils/vars';
-@import './utils/hidden';
+@import './base/index';
 
-@import './base/common';
-@import './base/reset';
+@import './utils/index';
 
-@import './components/btn';
-@import './components/container';
-@import './components/modal';
-@import './components/titel';
+@import './components/index';
 
-@import './layout/header';
-@import './layout/logo';
-@import './layout/hero';
-@import './layout/speciality';
-@import './layout/about';
-@import './layout/our-team';
-@import './layout/portfolio';
-@import './layout/regular-client';
-@import './layout/footer';
+@import './layout/index'
