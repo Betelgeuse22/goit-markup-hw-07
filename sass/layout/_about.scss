@@ -1,22 +1,17 @@
 .about {
-  margin-bottom: 50px;
-}
-.section-about {
   padding-bottom: 94px;
 }
 
 .about-list {
   display: flex;
-  margin-right: -30;
 }
 
-.about-item {
-  width: calc(100% / 3 - 30px);
+.about-list__item {
   margin-right: 30px;
   position: relative;
 }
 
-.about-item-description {
+.about-list__description {
   position: absolute;
   bottom: 0;
   display: block;
